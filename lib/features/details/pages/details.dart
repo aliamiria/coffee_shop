@@ -6,14 +6,14 @@ import 'package:coffee/core/constant/app_string.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class De extends StatefulWidget {
-  De({super.key});
+class Details extends StatefulWidget {
+  Details({super.key});
 
   @override
-  State<De> createState() => _DeState();
+  State<Details> createState() => _DeState();
 }
 
-class _DeState extends State<De> {
+class _DeState extends State<Details> {
   int itemPrice = 0;
   int total = 0;
   Color sellect = AapColor.grey;

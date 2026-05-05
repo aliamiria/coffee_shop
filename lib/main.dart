@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'features/details/pages/de.dart';
+import 'features/details/pages/details.dart';
 
 
 void main(){
@@ -23,8 +23,8 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         routes: {
           '/' : (context) => SplashScreen(),
-          '/h': (context)=>HomeScreen(),
-          '/d': (context)=>De(),
+          '/home': (context)=>HomeScreen(),
+          '/details': (context)=>De(),
         },
 
       ),

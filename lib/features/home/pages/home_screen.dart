@@ -62,7 +62,7 @@ class HomeScreen extends StatelessWidget {
                   onTap: () {
                     Navigator.pushNamed(
                       context,
-                      '/d',
+                      '/details',
                       arguments: allData[index],
                     );
                   },

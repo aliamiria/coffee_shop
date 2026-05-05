@@ -55,7 +55,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
   void goNext()async{
     await Future.delayed(Duration(seconds: 3));
-    Navigator.pushNamed(context, '/h');
+    Navigator.pushNamed(context, '/home');
   }
 
 
